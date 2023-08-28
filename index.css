@@ -215,8 +215,8 @@ section svg{
         padding-top: 4%;
     }
 }
-@media(max-width:350px){
+@media(max-width:400px){
     main{
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
