@@ -239,6 +239,7 @@ section svg{
     img{
         border-radius: 2.329px;
         background: url('image\ 33.png'), lightgray 50% / cover no-repeat;
+        max-width: 45%;
     }
     .item div h3{
         color: #FFF;
