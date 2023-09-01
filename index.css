@@ -215,9 +215,9 @@ section svg{
         padding-top: 4%;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     main{
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     .item{
         border-bottom: 1px solid whitesmoke;
