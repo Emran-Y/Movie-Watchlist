@@ -218,6 +218,7 @@ section svg{
 @media(max-width:480px){
     main{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows:200px ;
     }
     .item{
         border-bottom: 1px solid whitesmoke;
