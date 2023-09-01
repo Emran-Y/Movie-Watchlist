@@ -207,6 +207,12 @@ section svg{
     color: orangered; 
 }
 
+@media(max-width:650px){
+    main{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows:230px;
+    }
+}
 @media(min-width:800px){
     form{
         width: 40%;
